@@ -23,8 +23,6 @@ const metadata_seeds = [
 ];
 const [metadata_pda, _bump] = PublicKey.findProgramAddressSync(metadata_seeds, token_metadata_program_id);
 
-
-
 (async () => {
     try {
         // Start here

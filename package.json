@@ -10,7 +10,8 @@
     "enroll": "ts-node ./prerequisite/enroll.ts",
     "spl_init": "ts-node ./cluster1/ts/spl_init.ts",
     "spl_mint": "ts-node ./cluster1/ts/spl_mint.ts",
-    "spl_metadata": "ts-node ./cluster1/ts/spl_metadata.ts"
+    "spl_metadata": "ts-node ./cluster1/ts/spl_metadata.ts",
+    "spl_transfer": "ts-node ./cluster1/ts/spl_transfer.ts"
   },
   "dependencies": {
     "@metaplex-foundation/mpl-token-metadata": "^2.13.0",
