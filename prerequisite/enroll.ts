@@ -1,6 +1,6 @@
 import { Connection, Keypair, SystemProgram, PublicKey } from "@solana/web3.js";
 import { Program, Wallet, AnchorProvider, Address } from "@project-serum/anchor";
-import { WBAPrereq, IDL } from "./programs/wba_prereq";
+import { WBAPrereq, IDL } from "../programs/wba_prereq";
 import wallet from './wba-wallet.json'
 
 const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
