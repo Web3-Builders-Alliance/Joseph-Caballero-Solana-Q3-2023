@@ -9,6 +9,8 @@
     "transfer": "ts-node ./prerequisite/transfer.ts",
     "enroll": "ts-node ./prerequisite/enroll.ts",
     "nft_image": "ts-node ./cluster1/ts/nft_image.ts",
+    "nft_metadata": "ts-node ./cluster1/ts/nft_metadata.ts",
+    "nft_mint": "ts-node ./cluster1/ts/nft_mint.ts",
     "spl_init": "ts-node ./cluster1/ts/spl_init.ts",
     "spl_mint": "ts-node ./cluster1/ts/spl_mint.ts",
     "spl_metadata": "ts-node ./cluster1/ts/spl_metadata.ts",
